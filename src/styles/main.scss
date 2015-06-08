@@ -1,0 +1,67 @@
+/* Stiziles */
+
+html, body {
+  background: #efefef;
+  height: 100%;
+}
+
+/* main */
+
+#content,
+.main,
+.sidebar {
+  height: 100%;
+}
+
+.sidebar {
+  width: 20%;
+  max-width: 300px;
+  padding: 25px 0;
+  float: left;
+  .user-image {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    text-align: center;
+
+    img {
+      border-radius: 100%;
+    }
+  }
+}
+
+.viewport {
+  width: 80%;
+  height: 100%;
+  float: left;
+
+  .stock-box {
+    background-color: #fff;
+    width: 40%;
+    box-shadow: 0 0 3px rgba(0,0,0,.15);
+    padding: 20px;
+    float: left;
+    margin: 0 15px;
+
+    .stock-company-name {
+      font-size: 30px;
+      margin: 0;
+    }
+  }
+}
+
+.content-box {
+  padding: 25px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.red {
+  color: #880000;
+}
+
+.green {
+  color: #00A000;
+}
